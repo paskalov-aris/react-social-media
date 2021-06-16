@@ -1,9 +1,20 @@
 # React Social Media
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Данный проект является тренировочным, в целях получения практического опыта в работе с библиотекой React.
 
-## Avaliable Scripts
+## О проекте
 
-You can start the project by typing
+Архитектура приложения построена на концепии однонаправленного потока данных (FLUX):
+Пользователь нажал на кнопку >> Необходимые данные отправились в State >> State заново рендерит UI, но уже возвращая новые данные
+
+Для State Managment используется библиотека Redux
+
+## Server API
+
+Ссылка на API - https://social-network.samuraijs.com/
+
+## Доступные команды
+
+Вы можете запустить проект, прописав в консоли:
 
 ### `npm start`
