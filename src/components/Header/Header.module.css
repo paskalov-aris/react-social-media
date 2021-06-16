@@ -1,0 +1,40 @@
+.header {
+    background: #907FA4;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.header__logotype {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__logotype_image {
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.header__logotype_text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.header__login {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header__login a {
+    color: white;
+    font-size: 16px;
+}
+

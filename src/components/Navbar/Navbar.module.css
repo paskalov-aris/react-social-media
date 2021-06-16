@@ -1,0 +1,32 @@
+.navBar {
+    flex: 0 0 15%;
+    background: #A58FAA;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.item a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+/*.item a.activeLink::after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    background: black;*/
+/*    width: 100%;*/
+/*    height: 1px;*/
+/*}*/
+.item a.activeLink {
+    background: #EDEDD0;
+    color: #A58FAA;
+}
+

@@ -1,0 +1,22 @@
+.description__block {
+    padding: 10px;
+}
+
+.profile__banner {
+    object-fit: cover;
+    max-height: 300px;
+    width: 100%;
+}
+
+.profile__photo {
+    max-width: 250px;
+    border-radius: 3px;
+}
+
+.user__name {
+
+}
+
+p span {
+    font-weight: bold;
+}

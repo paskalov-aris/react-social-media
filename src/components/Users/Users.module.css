@@ -1,0 +1,27 @@
+.usersBlock {
+    padding: 10px;
+}
+
+.user__photo {
+    max-width: 80px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    background: wheat !important;
+}
+
+.paginationBlock {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.paginationButton {
+    cursor: pointer;
+    display: block;
+    background: #fff;
+    padding: 3px 8px;
+    text-align: center;
+    margin-right: 5px;
+    user-select: none;
+}
